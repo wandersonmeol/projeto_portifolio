@@ -139,7 +139,7 @@ body{
 }
 
 .projetos .projeto{
-    max-width: 260px;
+    max-width: 340px;
     max-height: 500;
     position: relative;
     display: none;
