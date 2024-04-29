@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wanderson Mendes Oliveira - Desenvolvedor Frontend </title>
+    <title>Wanderson Mendes Oliveira</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
@@ -13,29 +13,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="./SRC/imagens/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/imagens/favicon.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="SRC/CSS/reset.css">
-    <link rel="stylesheet" href="SRC/CSS/estilos.css">
-    <link rel="stylesheet" href=".//SRC/CSS/responsivo.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href=".//src/css/responsivo.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <a href="#">
+    <header class="header">
+        <h1 style="align-content: center; background-color: brown;">EM CONSTRUÇÃO!</h1>
+        <div class="container">
+            <div class="row justify-content-between alinhar-itens-no-centro">
+                <a href="#">
+                    <h1 class="logo">WMO</h1>
+                </a>
+                <nav>
+                    <input id="menu_hamburgues" type="checkbox"/>
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>    
+                    </label>
+                    <ul>
+                        <li><a href="#Sobre-mim">Sobre mim</a></li>
+                        <li><a href="#Minhas-habilidasdes">Minhas habilidades</a></li>
+                        <li><a href="#Meus projetos">Meus projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+       <!-- <a href="#">
             <h1 class="logo">WMO</h1>
         </a>
         <nav class="menu">
             <ul>
                 <li>
                     <a href="#projetos">Meus projetos</a>
+
                 </li>
-            </ul>
-        </nav>
-        
+            </ul> -->
     </header>
 
-
-    <section class="home">
+    <!-- <section class="home">
         <div class="informacoes">
             <h1>Olá! Sou Wanderson Mendes Oliveira</h1>
             <p>Um desenvolvedor frontend em formação por tecnologia</p>
@@ -71,10 +91,33 @@
                 <img src="./SRC/imagens/foto-perfil.png" alt="Foto do portifólio do Ricardo">
             </div>
         </div>
+    </section>-->
+
+    <section class="home">
+        <div class="container">
+            <div class="row full-screen alinhar-itens-no-centro">
+                <div class="texto-home">
+                    <p>Olá,</p>
+                    <h1>Sou Wanderson Mendes Oliveira</h1>
+                    <h2>desenvolvedor Frontend</h2>
+                    <div class="redes-sociais">
+                        <a href="#" class="outer-shadow"> <i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="outer-shadow"> <i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="outer-shadow"> <i class="fab fa-github"></i></a>
+                        <a href="#" class="outer-shadow"> <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="Foto do perfil">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-
-    <section class="projetos" id="projetos">
+    <!-- <section class="projetos" id="projetos">
         <h2 class="titulo">Meus Projetos</h2>
         <div class="container-projetos">
             <div class="projeto ativo">
@@ -160,6 +203,25 @@
         </div>
 
         <button class="btn-mostrar-projetos">Mostrar mais</button>
+    </section> -->
+    <section class="sobre-mim section" id="sobre-min">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre mim</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="imagem-sobre-mim">
+                    <div class="img-box inner-shadow">
+                        <img src="src/imagens/foto-perfil.png" alt="Foto sobre mim" class="outer-shadow">
+                    </div>
+                    
+                    <!--PAREI AQUI-->
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="./SRC/js/index.js"></script>
