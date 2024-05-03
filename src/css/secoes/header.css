@@ -1,0 +1,17 @@
+.header {
+    padding: 30px 15px;
+}
+
+.header .logo {
+    font-family: var(--secundaria);
+    font-size: var(--fonte-extra-grande);
+    color: var(--cor-branca);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    line-height: 55px;
+    text-align: center;
+    text-decoration: underline;
+    transition: 0.2s;
+    background-color: brown;
+}
