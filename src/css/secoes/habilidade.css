@@ -1,0 +1,16 @@
+.habilidades {  /* RETIRAR DEPOIS */
+    background-color: rgb(56, 197, 103);
+}
+
+.habilidades .container-habilidades {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.habilidades .container-habilidades .informacoes {
+    max-width: 350px;
+    padding: 40px 20px;
+} /* PAREI AQUI */
