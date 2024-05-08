@@ -1,5 +1,5 @@
 .habilidades {  /* RETIRAR DEPOIS */
-    background-color: rgb(56, 197, 103);
+    background-color: rgb(241, 229, 55);
 }
 
 .habilidades .container-habilidades {
@@ -13,4 +13,34 @@
 .habilidades .container-habilidades .informacoes {
     max-width: 350px;
     padding: 40px 20px;
-} /* PAREI AQUI */
+}
+
+.habilidades .container-habilidades .informacoes p,
+.habilidades .container-habilidades .informacoes h3,
+.habilidades .container-habilidades .informacoes .logo i {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.habilidades .container-habilidades .informacoes:hover p,
+.habilidades .container-habilidades .informacoes:hover h3,
+.habilidades .container-habilidades .informacoes:hover .logo i {
+    color: var(--cor-primaria);
+}
+
+.habilidades .container-habilidades .informacoes h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--cor-primaria);
+}
+
+.habilidades .container-habilidades .informacoes p {
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+}
+.habilidades .container-habilidades .informacoes .logo i {
+    font-size: 8rem
+}
