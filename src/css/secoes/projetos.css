@@ -1,0 +1,8 @@
+.projetos {
+    background-color: aqua; /* RETIRAR DEPOIS */
+}
+
+.projetos .container-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));   /* PAREI AQUI */
+}
