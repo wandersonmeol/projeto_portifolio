@@ -2,14 +2,6 @@
     padding: 30px 15px;
 }
 
-nav {
-    background-color: blue;  /* RETIRAR DEPOIS */
-}
-
-.menu {
-    background-color: rgb(64, 224, 211);
-}  /* RETIRAR DEPOIS */
-
 .header .logo {
     font-family: var(--secundaria);
     font-size: var(--fonte-extra-grande);
@@ -21,7 +13,6 @@ nav {
     text-align: center;
     text-decoration: underline;
     transition: 0.2s;
-    background-color: brown;
 }
 
 .header a:hover .logo {
@@ -48,6 +39,10 @@ nav {
 .header nav ul li a:hover {
     background-color: var(--cor-primaria);
     color: var(--cor-branca);
+}
+
+section .botoes {
+    background-color: var(--cor-primaria);
 }
 
 .header .menu {

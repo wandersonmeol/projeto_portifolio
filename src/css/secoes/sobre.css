@@ -1,11 +1,3 @@
-.sobre-mim { /* RETIRAR DEPOIS */
-    background-color: aquamarine; 
-}
-
-.imagem-sobre-mim { /* RETIRAR DEPOIS */
-    background-color: bisque;
-}
-
 .sobre-mim .imagem-sobre-mim {
     max-width: 40px;
     padding: 0 15px;
