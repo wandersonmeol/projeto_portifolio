@@ -281,7 +281,7 @@ body {
 }
 
 .inner-shadow {
-    box-shadow: 3px 3px 3px #222327, inset -3px -3px -3px #454545;  
+    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px -3px #454545;  
 }   
 
 .section {
@@ -301,7 +301,15 @@ body {
     text-transform: uppercase;
 }
 
+.botao {
+    font-size: var(--fonte-grande);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    background-color: var(--cor-primaria);
+}
+
 .botao:hover {
-    background-color: var(--secundaria);
-    color: var(--cor-branca)
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
 }

@@ -2,7 +2,7 @@
     --cor-primaria: #43bd8e;
     --cor-secundaria: #FD6C22;
     --cor-branca: #fff;
-    --cor-fundo-escuro: #FD6C22;
+    --cor-fundo-escuro: hsl(300, 33%, 1%);
     --cor-fundo-cinza-escuro: #282828;
     --cor-fundo-cinza-claro: #353535;
 }
